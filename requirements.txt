@@ -9,3 +9,4 @@ pyobjc-core
 pyobjc-framework-Cocoa
 pyobjc-framework-Quartz
 pyobjc-framework-Vision
+wordfreq>=3.1.1

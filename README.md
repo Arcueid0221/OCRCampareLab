@@ -38,6 +38,12 @@ python postprocess_notes.py \
   --output outputs/apple_words_shortdate.json \
   --allow-ambiguous-short-date
 
+# 5. Compare local/network/hybrid dictionary correction strategies
+python correct_words.py \
+  --input outputs/apple_words_shortdate.json \
+  --output outputs/apple_words_corrected_compare.json \
+  --mode compare
+
 # Optional: run the older three-engine comparison path
 python apple_ocr.py --input ../单词.pdf --output outputs/apple_compare.json --max-pages 3
 python paddle_ocr.py --input ../单词.pdf --output outputs/paddle_compare.json --dpi 150 --max-pages 3
@@ -58,6 +64,7 @@ python compare_confidence.py \
 | `easy_ocr.py` | EasyOCR (Chinese + English) | Cross-platform |
 | `highlight_detect.py` | Detect yellow highlighter regions | Cross-platform |
 | `postprocess_notes.py` | Parse Apple OCR into dated two-column English word records | Cross-platform |
+| `correct_words.py` | Compare local/network/hybrid dictionary correction strategies | Cross-platform |
 | `dictionary_cache.py` | Local SQLite dictionary cache plus optional API lookup | Cross-platform |
 | `compare_confidence.py` | Compare results & generate report | Cross-platform |
 
@@ -77,6 +84,7 @@ Engine-specific:
 - `easy_ocr.py`: `--languages` (default: ch_sim en), `--canvas-size` (default: 1920)
 - `highlight_detect.py`: HSV thresholds `--h-min`, `--h-max`, `--s-min`, `--v-min`, `--min-area`, plus morphology `--morph-kernel`, `--close-iterations`, `--open-iterations`
 - `postprocess_notes.py`: `--highlight-json`, `--default-year`, `--allow-ambiguous-short-date`, `--column-split`, `--word-zone-ratio`, `--include-missing-ordinal`
+- `correct_words.py`: `--mode compare|local|network|hybrid`, `--db`, `--custom-wordlist`, `--top-n`, correction thresholds, network cache controls
 - `dictionary_cache.py`: `--notes`, `--db`, `--provider dictionaryapi`, `--offline`, `--deepseek on|off`
 
 ## Current Kept Outputs
@@ -87,6 +95,7 @@ The cleaned `outputs/` folder keeps only the current Apple-first pipeline artifa
 - `highlights_5.json` — yellow highlight regions for the first 5 pages.
 - `apple_words.json` — English word records, with short dates such as `5.5` left ambiguous.
 - `apple_words_shortdate.json` — English word records, treating short dates such as `5.5` as valid dates.
+- `apple_words_corrected_compare.json` — optional correction comparison output from `correct_words.py`.
 
 ## Output Format
 
@@ -154,6 +163,23 @@ All OCR scripts produce a unified JSON structure:
 ```
 
 The main word sequence excludes OCR lines without a raw ordinal by default so corrected ordinals stay accurate. Those lines are preserved under `unassigned_words`; pass `--include-missing-ordinal` only when you want them in the main sequence.
+
+`correct_words.py` reads `apple_words_shortdate.json`, preserves the OCR fields, and adds three correction results for Web UI review:
+
+```json
+{
+  "word_normalized_raw": "jonrney",
+  "word_normalized": "journey",
+  "correction_selected": "hybrid",
+  "corrections": {
+    "local": {"status": "auto_corrected", "word": "journey"},
+    "network": {"status": "candidate_review", "word": "journey"},
+    "hybrid": {"status": "auto_corrected", "word": "journey"}
+  }
+}
+```
+
+Local correction uses `wordfreq`; network checks use `dictionaryapi.dev` and are cached in `outputs/correction_cache.sqlite`. Add one word per line to `wordlists/custom_words.txt` for future exam-specific supplements.
 
 `dictionary_cache.py` writes/reads `outputs/dictionary_cache.sqlite`. It first checks the local cache by `word_normalized`; cache misses call the configured provider unless `--offline` is set. Use `--deepseek on` with `DEEPSEEK_API_KEY` when you want Chinese meanings and exam-level examples.
 
