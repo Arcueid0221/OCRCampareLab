@@ -1,0 +1,3618 @@
+{
+  "source_engine": "apple_vision",
+  "input_json": "/Users/lwl/Desktop/考研/英语/OCRCompareLab/outputs/apple_english.json",
+  "highlight_json": "/Users/lwl/Desktop/考研/英语/OCRCompareLab/outputs/highlights_5.json",
+  "created_at": "2026-05-16T18:44:00.200544+00:00",
+  "settings": {
+    "default_year": 2026,
+    "allow_ambiguous_short_date": true,
+    "column_split": 0.5,
+    "min_word_confidence": 0.35,
+    "word_zone_ratio": 0.18,
+    "include_missing_ordinal": false,
+    "highlight_word_overlap": 0.18,
+    "highlight_region_overlap": 0.35
+  },
+  "summary": {
+    "days": 2,
+    "pages": 3,
+    "blank_pages": 1,
+    "blank_page_numbers": [
+      1
+    ],
+    "words": 116,
+    "highlighted_words": 0,
+    "unassigned_words": 11,
+    "needs_review": 35
+  },
+  "page_summaries": [
+    {
+      "page_number": 1,
+      "status": "blank",
+      "line_count": 0,
+      "word_count": 0,
+      "date": null,
+      "highlight_region_count": 0,
+      "review_reasons": []
+    },
+    {
+      "page_number": 2,
+      "status": "processed",
+      "line_count": 101,
+      "word_count": 65,
+      "unassigned_word_count": 2,
+      "highlighted_words": 0,
+      "highlight_region_count": 0,
+      "date": "2026-05-05",
+      "date_detected_on_page": "2026-05-05",
+      "date_inherited": false,
+      "needs_review": true,
+      "review_reasons": []
+    },
+    {
+      "page_number": 3,
+      "status": "processed",
+      "line_count": 109,
+      "word_count": 51,
+      "unassigned_word_count": 9,
+      "highlighted_words": 0,
+      "highlight_region_count": 0,
+      "date": "2026-05-06",
+      "date_detected_on_page": "2026-05-06",
+      "date_inherited": false,
+      "needs_review": true,
+      "review_reasons": []
+    }
+  ],
+  "unassigned_words": [
+    {
+      "page_number": 2,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "radiation",
+      "word_normalized": "radiation",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 59.7,
+        "y": 182.0,
+        "w": 162.5,
+        "h": 35.3
+      },
+      "source_text": "radiation",
+      "line_indices": [
+        2
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 2,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "oblige",
+      "word_normalized": "oblige",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 41.7,
+        "y": 549.6,
+        "w": 141.4,
+        "h": 47.0
+      },
+      "source_text": "oblige",
+      "line_indices": [
+        9
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "mediation",
+      "word_normalized": "mediation",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 33.9,
+        "y": 121.2,
+        "w": 202.7,
+        "h": 45.6
+      },
+      "source_text": "mediation.",
+      "line_indices": [
+        2
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "career",
+      "word_normalized": "career",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 65.3,
+        "y": 1516.7,
+        "w": 108.4,
+        "h": 35.0
+      },
+      "source_text": "career",
+      "line_indices": [
+        28
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "careful",
+      "word_normalized": "careful",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 56.9,
+        "y": 1571.3,
+        "w": 116.7,
+        "h": 37.1
+      },
+      "source_text": "careful",
+      "line_indices": [
+        30
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "Case",
+      "word_normalized": "case",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 68.2,
+        "y": 1628.0,
+        "w": 71.4,
+        "h": 26.3
+      },
+      "source_text": "Case",
+      "line_indices": [
+        32
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "cast",
+      "word_normalized": "cast",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 65.5,
+        "y": 1682.5,
+        "w": 71.2,
+        "h": 28.5
+      },
+      "source_text": "cast",
+      "line_indices": [
+        34
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "left",
+      "raw_ordinal": null,
+      "word_raw": "casuaL",
+      "word_normalized": "casual",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 65.5,
+        "y": 1733.9,
+        "w": 108.2,
+        "h": 28.5
+      },
+      "source_text": "casuaL",
+      "line_indices": [
+        36
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "right",
+      "raw_ordinal": null,
+      "word_raw": "cautious",
+      "word_normalized": "cautious",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 833.8,
+        "y": 181.5,
+        "w": 197.0,
+        "h": 37.3
+      },
+      "source_text": "cautious.",
+      "line_indices": [
+        67
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "right",
+      "raw_ordinal": null,
+      "word_raw": "ceaseless",
+      "word_normalized": "ceaseless",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 859.3,
+        "y": 289.9,
+        "w": 151.2,
+        "h": 33.3
+      },
+      "source_text": "ceaseless",
+      "line_indices": [
+        69
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    },
+    {
+      "page_number": 3,
+      "column": "right",
+      "raw_ordinal": null,
+      "word_raw": "sit",
+      "word_normalized": "sit",
+      "ocr_confidence": 1.0,
+      "bbox": {
+        "x": 853.8,
+        "y": 1303.2,
+        "w": 85.4,
+        "h": 31.4
+      },
+      "source_text": "sit.",
+      "line_indices": [
+        98
+      ],
+      "reason": "missing_raw_ordinal_excluded_from_sequence"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-05-05",
+      "pages": [
+        2
+      ],
+      "words": [
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 1,
+          "raw_ordinal": "1",
+          "corrected_ordinal": 1,
+          "word_raw": "radiate",
+          "word_normalized": "radiate",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 8.4,
+            "y": 124.9,
+            "w": 179.6,
+            "h": 41.1
+          },
+          "source_text": "1. radiate",
+          "line_indices": [
+            1
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 2,
+          "raw_ordinal": "2",
+          "corrected_ordinal": 2,
+          "word_raw": "radiant",
+          "word_normalized": "radiant",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 5.5,
+            "y": 227.3,
+            "w": 213.8,
+            "h": 47.2
+          },
+          "source_text": "2. radiant",
+          "line_indices": [
+            3
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 3,
+          "raw_ordinal": "3",
+          "corrected_ordinal": 3,
+          "word_raw": "radical",
+          "word_normalized": "radical",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.0,
+            "y": 287.8,
+            "w": 202.2,
+            "h": 37.6
+          },
+          "source_text": "3. radical",
+          "line_indices": [
+            4
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 4,
+          "raw_ordinal": "4",
+          "corrected_ordinal": 4,
+          "word_raw": "object",
+          "word_normalized": "object",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 5.4,
+            "y": 335.2,
+            "w": 179.9,
+            "h": 45.3
+          },
+          "source_text": "4. object",
+          "line_indices": [
+            5
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 5,
+          "raw_ordinal": "5",
+          "corrected_ordinal": 5,
+          "word_raw": "objective",
+          "word_normalized": "objective",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 5.2,
+            "y": 388.5,
+            "w": 220.1,
+            "h": 52.8
+          },
+          "source_text": "5. objective",
+          "line_indices": [
+            6
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 6,
+          "raw_ordinal": "b",
+          "corrected_ordinal": 6,
+          "word_raw": "objection",
+          "word_normalized": "objection",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.1,
+            "y": 447.0,
+            "w": 227.9,
+            "h": 41.4
+          },
+          "source_text": "b. objection",
+          "line_indices": [
+            7
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 7,
+          "raw_ordinal": "7",
+          "corrected_ordinal": 7,
+          "word_raw": "obligation",
+          "word_normalized": "obligation",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 8.5,
+            "y": 493.1,
+            "w": 273.3,
+            "h": 54.7
+          },
+          "source_text": "7. obligation.",
+          "line_indices": [
+            8
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 8,
+          "raw_ordinal": "7",
+          "corrected_ordinal": 8,
+          "word_raw": "obscure",
+          "word_normalized": "obscure",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.75,
+          "bbox": {
+            "x": 11.3,
+            "y": 601.5,
+            "w": 205.0,
+            "h": 43.2
+          },
+          "source_text": "7. obscure.",
+          "line_indices": [
+            10
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 9,
+          "raw_ordinal": "10",
+          "corrected_ordinal": 10,
+          "word_raw": "observation",
+          "word_normalized": "observation",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 655.9,
+            "w": 281.8,
+            "h": 40.1
+          },
+          "source_text": "10. observation",
+          "line_indices": [
+            11
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 10,
+          "raw_ordinal": "ll",
+          "corrected_ordinal": 11,
+          "word_raw": "observe",
+          "word_normalized": "observe",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 715.8,
+            "w": 213.5,
+            "h": 34.2
+          },
+          "source_text": "ll. observe",
+          "line_indices": [
+            12
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 11,
+          "raw_ordinal": "12",
+          "corrected_ordinal": 12,
+          "word_raw": "obsession",
+          "word_normalized": "obsession",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 764.0,
+            "w": 253.3,
+            "h": 40.2
+          },
+          "source_text": "12. obsession",
+          "line_indices": [
+            13
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 12,
+          "raw_ordinal": "13",
+          "corrected_ordinal": 13,
+          "word_raw": "obsolete",
+          "word_normalized": "obsolete",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 818.0,
+            "w": 239.1,
+            "h": 38.0
+          },
+          "source_text": "13. obsolete",
+          "line_indices": [
+            14
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 13,
+          "raw_ordinal": "14",
+          "corrected_ordinal": 14,
+          "word_raw": "obtain",
+          "word_normalized": "obtain",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.0,
+            "y": 869.8,
+            "w": 193.5,
+            "h": 40.2
+          },
+          "source_text": "14. obtain",
+          "line_indices": [
+            15
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 14,
+          "raw_ordinal": "15",
+          "corrected_ordinal": 15,
+          "word_raw": "obvious",
+          "word_normalized": "obvious",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 926.8,
+            "w": 222.0,
+            "h": 37.2
+          },
+          "source_text": "15. obvious.",
+          "line_indices": [
+            16
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 15,
+          "raw_ordinal": "Ib",
+          "corrected_ordinal": 16,
+          "word_raw": "ideal",
+          "word_normalized": "ideal",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.8,
+            "y": 977.7,
+            "w": 155.2,
+            "h": 39.7
+          },
+          "source_text": "Ib. ideal",
+          "line_indices": [
+            17
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 16,
+          "raw_ordinal": "18",
+          "corrected_ordinal": 18,
+          "word_raw": "identical",
+          "word_normalized": "identical",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.2,
+            "y": 1079.9,
+            "w": 222.3,
+            "h": 44.5
+          },
+          "source_text": "18. identical",
+          "line_indices": [
+            19
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 17,
+          "raw_ordinal": "1",
+          "corrected_ordinal": 19,
+          "word_raw": "identification",
+          "word_normalized": "identification",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": -0.8,
+            "y": 1137.0,
+            "w": 309.0,
+            "h": 48.2
+          },
+          "source_text": "1) identification.",
+          "line_indices": [
+            20
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 18,
+          "raw_ordinal": "w",
+          "corrected_ordinal": 20,
+          "word_raw": "identify",
+          "word_normalized": "identify",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.55,
+          "bbox": {
+            "x": 0.0,
+            "y": 1192.0,
+            "w": 193.5,
+            "h": 49.0
+          },
+          "source_text": "w. identify",
+          "line_indices": [
+            21
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 19,
+          "raw_ordinal": "21",
+          "corrected_ordinal": 21,
+          "word_raw": "identitl",
+          "word_normalized": "identitl",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.1,
+            "y": 1246.0,
+            "w": 199.3,
+            "h": 46.1
+          },
+          "source_text": "21. identitl",
+          "line_indices": [
+            22
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 20,
+          "raw_ordinal": "v",
+          "corrected_ordinal": 22,
+          "word_raw": "journal",
+          "word_normalized": "journal",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.55,
+          "bbox": {
+            "x": -0.2,
+            "y": 1302.4,
+            "w": 205.2,
+            "h": 38.8
+          },
+          "source_text": "v. journal.",
+          "line_indices": [
+            23
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 21,
+          "raw_ordinal": "23",
+          "corrected_ordinal": 23,
+          "word_raw": "journalist",
+          "word_normalized": "journalist",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 1357.0,
+            "w": 244.8,
+            "h": 38.0
+          },
+          "source_text": "23. journalist.",
+          "line_indices": [
+            24
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 22,
+          "raw_ordinal": "24",
+          "corrected_ordinal": 24,
+          "word_raw": "jonrney",
+          "word_normalized": "jonrney",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 1408.8,
+            "w": 204.9,
+            "h": 43.2
+          },
+          "source_text": "24. jonrney.",
+          "line_indices": [
+            25
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 23,
+          "raw_ordinal": "25",
+          "corrected_ordinal": 25,
+          "word_raw": "judge",
+          "word_normalized": "judge",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.0,
+            "y": 1457.0,
+            "w": 165.1,
+            "h": 49.0
+          },
+          "source_text": "25. judge",
+          "line_indices": [
+            26
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 24,
+          "raw_ordinal": "26",
+          "corrected_ordinal": 26,
+          "word_raw": "judgment",
+          "word_normalized": "judgment",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.1,
+            "y": 1508.2,
+            "w": 236.4,
+            "h": 52.1
+          },
+          "source_text": "26. judgment",
+          "line_indices": [
+            27
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 25,
+          "raw_ordinal": "27",
+          "corrected_ordinal": 27,
+          "word_raw": "judical",
+          "word_normalized": "judical",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 1559.9,
+            "w": 204.9,
+            "h": 48.5
+          },
+          "source_text": "27. judical.",
+          "line_indices": [
+            28
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 26,
+          "raw_ordinal": "28",
+          "corrected_ordinal": 28,
+          "word_raw": "jury",
+          "word_normalized": "jury",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.0,
+            "y": 1616.9,
+            "w": 136.6,
+            "h": 43.1
+          },
+          "source_text": "28 jury",
+          "line_indices": [
+            29
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 27,
+          "raw_ordinal": "2",
+          "corrected_ordinal": 29,
+          "word_raw": "jurisdiction",
+          "word_normalized": "jurisdiction",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 4.3,
+            "y": 1666.8,
+            "w": 287.3,
+            "h": 57.1
+          },
+          "source_text": "2 jurisdiction.",
+          "line_indices": [
+            30
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 28,
+          "raw_ordinal": "30",
+          "corrected_ordinal": 30,
+          "word_raw": "justic",
+          "word_normalized": "justic",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 2.8,
+            "y": 1728.0,
+            "w": 176.5,
+            "h": 40.3
+          },
+          "source_text": "30, justic.",
+          "line_indices": [
+            31
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 29,
+          "raw_ordinal": "31",
+          "corrected_ordinal": 31,
+          "word_raw": "justify",
+          "word_normalized": "justify",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 8.4,
+            "y": 1776.2,
+            "w": 168.2,
+            "h": 49.3
+          },
+          "source_text": "31. justify",
+          "line_indices": [
+            32
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 30,
+          "raw_ordinal": "32",
+          "corrected_ordinal": 32,
+          "word_raw": "Label",
+          "word_normalized": "label",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 5.3,
+            "y": 1831.6,
+            "w": 165.9,
+            "h": 38.4
+          },
+          "source_text": "32. Label.",
+          "line_indices": [
+            33
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "left",
+          "sequence": 31,
+          "raw_ordinal": "33",
+          "corrected_ordinal": 33,
+          "word_raw": "Lag",
+          "word_normalized": "lag",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 2.8,
+            "y": 1885.0,
+            "w": 125.2,
+            "h": 46.0
+          },
+          "source_text": "33. Lag",
+          "line_indices": [
+            34
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 32,
+          "raw_ordinal": "34",
+          "corrected_ordinal": 34,
+          "word_raw": "Largely",
+          "word_normalized": "largely",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 805.5,
+            "y": 22.8,
+            "w": 193.5,
+            "h": 43.2
+          },
+          "source_text": "34. Largely",
+          "line_indices": [
+            50
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 33,
+          "raw_ordinal": "35",
+          "corrected_ordinal": 35,
+          "word_raw": "lateral",
+          "word_normalized": "lateral",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 805.4,
+            "y": 76.8,
+            "w": 207.8,
+            "h": 34.7
+          },
+          "source_text": "35. lateral.",
+          "line_indices": [
+            52
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 34,
+          "raw_ordinal": "30",
+          "corrected_ordinal": 36,
+          "word_raw": "Latter",
+          "word_normalized": "latter",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.3,
+            "y": 130.1,
+            "w": 185.4,
+            "h": 36.5
+          },
+          "source_text": "30. Latter.",
+          "line_indices": [
+            53
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 35,
+          "raw_ordinal": "31",
+          "corrected_ordinal": 37,
+          "word_raw": "Law",
+          "word_normalized": "law",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.5,
+            "y": 182.5,
+            "w": 136.6,
+            "h": 34.5
+          },
+          "source_text": "31. Law.",
+          "line_indices": [
+            55
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 36,
+          "raw_ordinal": "38",
+          "corrected_ordinal": 38,
+          "word_raw": "magnitude",
+          "word_normalized": "magnitude",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 805.5,
+            "y": 279.0,
+            "w": 350.1,
+            "h": 52.0
+          },
+          "source_text": "38. magnitude. EK.",
+          "line_indices": [
+            59
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 37,
+          "raw_ordinal": "40",
+          "corrected_ordinal": 40,
+          "word_raw": "magnify",
+          "word_normalized": "magnify",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 805.5,
+            "y": 342.0,
+            "w": 185.0,
+            "h": 43.0
+          },
+          "source_text": "40. magnify",
+          "line_indices": [
+            60
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 38,
+          "raw_ordinal": "41",
+          "corrected_ordinal": 41,
+          "word_raw": "magnificent",
+          "word_normalized": "magnificent",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.2,
+            "y": 393.9,
+            "w": 245.6,
+            "h": 47.7
+          },
+          "source_text": "41. magnificent",
+          "line_indices": [
+            62
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 39,
+          "raw_ordinal": "42",
+          "corrected_ordinal": 42,
+          "word_raw": "maintain",
+          "word_normalized": "maintain",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 799.8,
+            "y": 453.0,
+            "w": 222.0,
+            "h": 32.0
+          },
+          "source_text": "42 maintain.",
+          "line_indices": [
+            64
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 40,
+          "raw_ordinal": "43",
+          "corrected_ordinal": 43,
+          "word_raw": "maintenance",
+          "word_normalized": "maintenance",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 799.8,
+            "y": 501.9,
+            "w": 256.2,
+            "h": 37.1
+          },
+          "source_text": "43. maintenance",
+          "line_indices": [
+            65
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 41,
+          "raw_ordinal": "44",
+          "corrected_ordinal": 44,
+          "word_raw": "major",
+          "word_normalized": "major",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 805.5,
+            "y": 556.0,
+            "w": 165.1,
+            "h": 43.0
+          },
+          "source_text": "44. major.",
+          "line_indices": [
+            66
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 42,
+          "raw_ordinal": "45",
+          "corrected_ordinal": 45,
+          "word_raw": "majority",
+          "word_normalized": "majority",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.5,
+            "y": 609.5,
+            "w": 202.4,
+            "h": 44.2
+          },
+          "source_text": "45. majority",
+          "line_indices": [
+            67
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 43,
+          "raw_ordinal": "40",
+          "corrected_ordinal": 46,
+          "word_raw": "make",
+          "word_normalized": "make",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.6,
+            "y": 661.6,
+            "w": 145.2,
+            "h": 34.4
+          },
+          "source_text": "40. make",
+          "line_indices": [
+            68
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 44,
+          "raw_ordinal": "47",
+          "corrected_ordinal": 47,
+          "word_raw": "theme",
+          "word_normalized": "theme",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 805.5,
+            "y": 712.9,
+            "w": 170.8,
+            "h": 40.1
+          },
+          "source_text": "47. theme.",
+          "line_indices": [
+            72
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 45,
+          "raw_ordinal": "48",
+          "corrected_ordinal": 48,
+          "word_raw": "theory",
+          "word_normalized": "theory",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 797.7,
+            "y": 763.5,
+            "w": 183.6,
+            "h": 51.3
+          },
+          "source_text": "48. theory.",
+          "line_indices": [
+            73
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 46,
+          "raw_ordinal": "48",
+          "corrected_ordinal": 49,
+          "word_raw": "theoretical",
+          "word_normalized": "theoretical",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.75,
+          "bbox": {
+            "x": 802.5,
+            "y": 815.0,
+            "w": 233.6,
+            "h": 46.8
+          },
+          "source_text": "48. theoretical",
+          "line_indices": [
+            74
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 47,
+          "raw_ordinal": "50",
+          "corrected_ordinal": 50,
+          "word_raw": "therapy",
+          "word_normalized": "therapy",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 801.9,
+            "y": 875.6,
+            "w": 206.2,
+            "h": 40.5
+          },
+          "source_text": "50. therapy.",
+          "line_indices": [
+            75
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 48,
+          "raw_ordinal": "51",
+          "corrected_ordinal": 51,
+          "word_raw": "qualification",
+          "word_normalized": "qualification",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.2,
+            "y": 927.2,
+            "w": 271.1,
+            "h": 47.7
+          },
+          "source_text": "51. qualification.",
+          "line_indices": [
+            77
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 49,
+          "raw_ordinal": "5z",
+          "corrected_ordinal": 52,
+          "word_raw": "qualify",
+          "word_normalized": "qualify",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.4,
+            "y": 979.8,
+            "w": 199.8,
+            "h": 48.0
+          },
+          "source_text": "5z. qualify.",
+          "line_indices": [
+            78
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 50,
+          "raw_ordinal": "53",
+          "corrected_ordinal": 53,
+          "word_raw": "quality",
+          "word_normalized": "quality",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.6,
+            "y": 1032.0,
+            "w": 176.5,
+            "h": 49.0
+          },
+          "source_text": "53. quality",
+          "line_indices": [
+            80
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 51,
+          "raw_ordinal": "54",
+          "corrected_ordinal": 54,
+          "word_raw": "qualitative",
+          "word_normalized": "qualitative",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 798.9,
+            "y": 1088.6,
+            "w": 237.7,
+            "h": 45.4
+          },
+          "source_text": "54. qualitative",
+          "line_indices": [
+            82
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 52,
+          "raw_ordinal": "55",
+          "corrected_ordinal": 55,
+          "word_raw": "safeguard",
+          "word_normalized": "safeguard",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.5,
+            "y": 1143.0,
+            "w": 213.7,
+            "h": 41.1
+          },
+          "source_text": "55. safeguard",
+          "line_indices": [
+            84
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 53,
+          "raw_ordinal": "56",
+          "corrected_ordinal": 56,
+          "word_raw": "safety",
+          "word_normalized": "safety",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.4,
+            "y": 1194.1,
+            "w": 168.3,
+            "h": 44.4
+          },
+          "source_text": "56. safety",
+          "line_indices": [
+            85
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 54,
+          "raw_ordinal": "57",
+          "corrected_ordinal": 57,
+          "word_raw": "Savage",
+          "word_normalized": "savage",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.5,
+            "y": 1251.4,
+            "w": 159.6,
+            "h": 41.0
+          },
+          "source_text": "57. Savage",
+          "line_indices": [
+            86
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 55,
+          "raw_ordinal": "58",
+          "corrected_ordinal": 58,
+          "word_raw": "save",
+          "word_normalized": "save",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 801.7,
+            "y": 1304.5,
+            "w": 141.4,
+            "h": 33.8
+          },
+          "source_text": "58. save.",
+          "line_indices": [
+            88
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 56,
+          "raw_ordinal": "57",
+          "corrected_ordinal": 59,
+          "word_raw": "saving",
+          "word_normalized": "saving",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.75,
+          "bbox": {
+            "x": 797.7,
+            "y": 1352.0,
+            "w": 172.5,
+            "h": 51.4
+          },
+          "source_text": "57. saving.",
+          "line_indices": [
+            89
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 57,
+          "raw_ordinal": "60",
+          "corrected_ordinal": 60,
+          "word_raw": "scale",
+          "word_normalized": "scale",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 799.8,
+            "y": 1411.6,
+            "w": 142.3,
+            "h": 31.4
+          },
+          "source_text": "60. scale",
+          "line_indices": [
+            90
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 58,
+          "raw_ordinal": "b1",
+          "corrected_ordinal": 61,
+          "word_raw": "scene",
+          "word_normalized": "scene",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.6,
+            "y": 1462.9,
+            "w": 153.7,
+            "h": 34.2
+          },
+          "source_text": "b1. scene",
+          "line_indices": [
+            91
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 59,
+          "raw_ordinal": "oz",
+          "corrected_ordinal": 62,
+          "word_raw": "scenery",
+          "word_normalized": "scenery",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 799.3,
+            "y": 1518.6,
+            "w": 177.7,
+            "h": 37.1
+          },
+          "source_text": "oz. scenery",
+          "line_indices": [
+            93
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 60,
+          "raw_ordinal": "b3",
+          "corrected_ordinal": 63,
+          "word_raw": "pace",
+          "word_normalized": "pace",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 799.4,
+            "y": 1567.1,
+            "w": 154.4,
+            "h": 42.7
+          },
+          "source_text": "b3. pace.",
+          "line_indices": [
+            94
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 61,
+          "raw_ordinal": "64",
+          "corrected_ordinal": 64,
+          "word_raw": "panel",
+          "word_normalized": "panel",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.1,
+            "y": 1623.7,
+            "w": 146.1,
+            "h": 43.5
+          },
+          "source_text": "64. panel",
+          "line_indices": [
+            96
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 62,
+          "raw_ordinal": "65",
+          "corrected_ordinal": 65,
+          "word_raw": "panorama",
+          "word_normalized": "panorama",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 802.0,
+            "y": 1679.2,
+            "w": 217.0,
+            "h": 39.0
+          },
+          "source_text": "65. panorama",
+          "line_indices": [
+            97
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 63,
+          "raw_ordinal": "bb",
+          "corrected_ordinal": 66,
+          "word_raw": "prove",
+          "word_normalized": "prove",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 799.8,
+            "y": 1728.0,
+            "w": 142.3,
+            "h": 43.0
+          },
+          "source_text": "bb. prove",
+          "line_indices": [
+            98
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 64,
+          "raw_ordinal": "67",
+          "corrected_ordinal": 67,
+          "word_raw": "provide",
+          "word_normalized": "provide",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 799.6,
+            "y": 1781.3,
+            "w": 188.3,
+            "h": 42.0
+          },
+          "source_text": "67. provide.",
+          "line_indices": [
+            99
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-05",
+          "page_number": 2,
+          "column": "right",
+          "sequence": 65,
+          "raw_ordinal": "b8",
+          "corrected_ordinal": 68,
+          "word_raw": "provided",
+          "word_normalized": "provided",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 799.2,
+            "y": 1828.1,
+            "w": 211.7,
+            "h": 48.3
+          },
+          "source_text": "b8. provided.",
+          "line_indices": [
+            100
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        }
+      ],
+      "needs_review": true,
+      "review_reasons": []
+    },
+    {
+      "date": "2026-05-06",
+      "pages": [
+        3
+      ],
+      "words": [
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 1,
+          "raw_ordinal": "1",
+          "corrected_ordinal": 1,
+          "word_raw": "mediate",
+          "word_normalized": "mediate",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 8.5,
+            "y": 73.9,
+            "w": 182.3,
+            "h": 37.6
+          },
+          "source_text": "1 mediate",
+          "line_indices": [
+            1
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 2,
+          "raw_ordinal": "2",
+          "corrected_ordinal": 2,
+          "word_raw": "meditation",
+          "word_normalized": "meditation",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 7.9,
+            "y": 172.6,
+            "w": 251.5,
+            "h": 47.6
+          },
+          "source_text": "2. meditation",
+          "line_indices": [
+            3
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 3,
+          "raw_ordinal": "3",
+          "corrected_ordinal": 3,
+          "word_raw": "medium",
+          "word_normalized": "medium",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 2.7,
+            "y": 234.0,
+            "w": 210.7,
+            "h": 37.5
+          },
+          "source_text": "3. medium.",
+          "line_indices": [
+            4
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 4,
+          "raw_ordinal": "4",
+          "corrected_ordinal": 4,
+          "word_raw": "media",
+          "word_normalized": "media",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 2.8,
+            "y": 285.0,
+            "w": 167.9,
+            "h": 43.0
+          },
+          "source_text": "4. media",
+          "line_indices": [
+            5
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 5,
+          "raw_ordinal": "5",
+          "corrected_ordinal": 5,
+          "word_raw": "elaborate",
+          "word_normalized": "elaborate",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 8.4,
+            "y": 335.5,
+            "w": 253.7,
+            "h": 44.9
+          },
+          "source_text": "5. elaborate",
+          "line_indices": [
+            6
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 6,
+          "raw_ordinal": "b",
+          "corrected_ordinal": 6,
+          "word_raw": "eleqant",
+          "word_normalized": "eleqant",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 11.1,
+            "y": 391.8,
+            "w": 202.7,
+            "h": 43.4
+          },
+          "source_text": "b. eleqant.",
+          "line_indices": [
+            7
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 7,
+          "raw_ordinal": "7",
+          "corrected_ordinal": 7,
+          "word_raw": "element",
+          "word_normalized": "element",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 11.3,
+            "y": 446.9,
+            "w": 202.3,
+            "h": 35.8
+          },
+          "source_text": "7. element",
+          "line_indices": [
+            8
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 8,
+          "raw_ordinal": "8",
+          "corrected_ordinal": 8,
+          "word_raw": "elemantary",
+          "word_normalized": "elemantary",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 6.0,
+            "y": 489.2,
+            "w": 269.2,
+            "h": 67.4
+          },
+          "source_text": "8. elemantary",
+          "line_indices": [
+            9
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 9,
+          "raw_ordinal": "s",
+          "corrected_ordinal": 9,
+          "word_raw": "eliminate",
+          "word_normalized": "eliminate",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 11.2,
+            "y": 546.5,
+            "w": 239.4,
+            "h": 44.8
+          },
+          "source_text": "s. eliminate",
+          "line_indices": [
+            10
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 10,
+          "raw_ordinal": "l0",
+          "corrected_ordinal": 10,
+          "word_raw": "abolish",
+          "word_normalized": "abolish",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.5,
+            "y": 607.3,
+            "w": 208.8,
+            "h": 43.1
+          },
+          "source_text": "l0. abolish",
+          "line_indices": [
+            11
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 11,
+          "raw_ordinal": "1l",
+          "corrected_ordinal": 11,
+          "word_raw": "absence",
+          "word_normalized": "absence",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.3,
+            "y": 654.2,
+            "w": 222.7,
+            "h": 49.0
+          },
+          "source_text": "1l. absence",
+          "line_indices": [
+            12
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 12,
+          "raw_ordinal": "12",
+          "corrected_ordinal": 12,
+          "word_raw": "absent",
+          "word_normalized": "absent",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.0,
+            "y": 712.7,
+            "w": 210.7,
+            "h": 40.4
+          },
+          "source_text": "12. absent",
+          "line_indices": [
+            13
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 13,
+          "raw_ordinal": "13",
+          "corrected_ordinal": 13,
+          "word_raw": "abroad",
+          "word_normalized": "abroad",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 770.0,
+            "w": 216.3,
+            "h": 34.2
+          },
+          "source_text": "13. abroad",
+          "line_indices": [
+            14
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 14,
+          "raw_ordinal": "14",
+          "corrected_ordinal": 14,
+          "word_raw": "absolute",
+          "word_normalized": "absolute",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.7,
+            "y": 811.2,
+            "w": 254.7,
+            "h": 51.7
+          },
+          "source_text": "14. absolute",
+          "line_indices": [
+            15
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 15,
+          "raw_ordinal": "15",
+          "corrected_ordinal": 15,
+          "word_raw": "obsorb",
+          "word_normalized": "obsorb",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.4,
+            "y": 870.3,
+            "w": 205.7,
+            "h": 41.7
+          },
+          "source_text": "15. obsorb",
+          "line_indices": [
+            16
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 16,
+          "raw_ordinal": "16",
+          "corrected_ordinal": 16,
+          "word_raw": "abstract",
+          "word_normalized": "abstract",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 0.0,
+            "y": 921.0,
+            "w": 250.5,
+            "h": 43.0
+          },
+          "source_text": "16. abstract",
+          "line_indices": [
+            17
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 17,
+          "raw_ordinal": "17",
+          "corrected_ordinal": 17,
+          "word_raw": "ban",
+          "word_normalized": "ban",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.0,
+            "y": 972.0,
+            "w": 142.3,
+            "h": 46.1
+          },
+          "source_text": "17. ban",
+          "line_indices": [
+            18
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 18,
+          "raw_ordinal": "18",
+          "corrected_ordinal": 18,
+          "word_raw": "bar",
+          "word_normalized": "bar",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.1,
+            "y": 1031.8,
+            "w": 139.7,
+            "h": 38.1
+          },
+          "source_text": "18. bar",
+          "line_indices": [
+            19
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 19,
+          "raw_ordinal": "20",
+          "corrected_ordinal": 20,
+          "word_raw": "barely",
+          "word_normalized": "barely",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 4.1,
+            "y": 1131.7,
+            "w": 171.8,
+            "h": 53.2
+          },
+          "source_text": "20. barely",
+          "line_indices": [
+            21
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 20,
+          "raw_ordinal": "2l",
+          "corrected_ordinal": 21,
+          "word_raw": "bargain",
+          "word_normalized": "bargain",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 5.3,
+            "y": 1187.2,
+            "w": 208.5,
+            "h": 43.9
+          },
+          "source_text": "2l. bargain",
+          "line_indices": [
+            22
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 21,
+          "raw_ordinal": "2",
+          "corrected_ordinal": 22,
+          "word_raw": "capable",
+          "word_normalized": "capable",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 8.4,
+            "y": 1242.9,
+            "w": 208.0,
+            "h": 49.5
+          },
+          "source_text": "2. capable",
+          "line_indices": [
+            23
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 22,
+          "raw_ordinal": "23",
+          "corrected_ordinal": 23,
+          "word_raw": "capacity",
+          "word_normalized": "capacity",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.4,
+            "y": 1293.0,
+            "w": 239.8,
+            "h": 57.6
+          },
+          "source_text": "23. capacity",
+          "line_indices": [
+            24
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 23,
+          "raw_ordinal": "24",
+          "corrected_ordinal": 24,
+          "word_raw": "capital",
+          "word_normalized": "capital",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": -0.2,
+            "y": 1345.2,
+            "w": 208.2,
+            "h": 55.7
+          },
+          "source_text": "24. capital",
+          "line_indices": [
+            25
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 24,
+          "raw_ordinal": "35",
+          "corrected_ordinal": 25,
+          "word_raw": "captive",
+          "word_normalized": "captive",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": -0.7,
+            "y": 1409.2,
+            "w": 194.7,
+            "h": 41.9
+          },
+          "source_text": "35. captive",
+          "line_indices": [
+            26
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 25,
+          "raw_ordinal": "b2",
+          "corrected_ordinal": 26,
+          "word_raw": "casualty",
+          "word_normalized": "casualty",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": -0.2,
+            "y": 1781.2,
+            "w": 228.1,
+            "h": 42.2
+          },
+          "source_text": "b2. casualty",
+          "line_indices": [
+            37
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 26,
+          "raw_ordinal": "33",
+          "corrected_ordinal": 27,
+          "word_raw": "Catch",
+          "word_normalized": "catch",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": -0.2,
+            "y": 1832.6,
+            "w": 185.4,
+            "h": 39.2
+          },
+          "source_text": "33. Catch.",
+          "line_indices": [
+            38
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "left",
+          "sequence": 27,
+          "raw_ordinal": "34",
+          "corrected_ordinal": 28,
+          "word_raw": "category",
+          "word_normalized": "category",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": -0.2,
+            "y": 1884.2,
+            "w": 222.3,
+            "h": 47.2
+          },
+          "source_text": "34. category",
+          "line_indices": [
+            39
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 28,
+          "raw_ordinal": "35",
+          "corrected_ordinal": 29,
+          "word_raw": "cater",
+          "word_normalized": "cater",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.4,
+            "y": 22.5,
+            "w": 153.8,
+            "h": 37.6
+          },
+          "source_text": "35. cater",
+          "line_indices": [
+            61
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 29,
+          "raw_ordinal": "31",
+          "corrected_ordinal": 31,
+          "word_raw": "caution",
+          "word_normalized": "caution",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 1.0,
+          "bbox": {
+            "x": 805.3,
+            "y": 124.4,
+            "w": 202.5,
+            "h": 39.2
+          },
+          "source_text": "31. caution.",
+          "line_indices": [
+            65
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": false,
+          "review_reasons": []
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 30,
+          "raw_ordinal": "38",
+          "corrected_ordinal": 32,
+          "word_raw": "cease",
+          "word_normalized": "cease",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.4,
+            "y": 227.4,
+            "w": 159.8,
+            "h": 44.2
+          },
+          "source_text": "38. cease",
+          "line_indices": [
+            68
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 31,
+          "raw_ordinal": "40",
+          "corrected_ordinal": 33,
+          "word_raw": "celebrate",
+          "word_normalized": "celebrate",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.6,
+            "y": 342.0,
+            "w": 216.3,
+            "h": 34.4
+          },
+          "source_text": "40 celebrate",
+          "line_indices": [
+            71
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 32,
+          "raw_ordinal": "41",
+          "corrected_ordinal": 34,
+          "word_raw": "celebrity",
+          "word_normalized": "celebrity",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 799.7,
+            "y": 390.2,
+            "w": 225.0,
+            "h": 49.4
+          },
+          "source_text": "41. celebrity.",
+          "line_indices": [
+            72
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 33,
+          "raw_ordinal": "42",
+          "corrected_ordinal": 35,
+          "word_raw": "ceremony",
+          "word_normalized": "ceremony",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.5,
+            "y": 447.7,
+            "w": 222.0,
+            "h": 40.3
+          },
+          "source_text": "42. ceremony",
+          "line_indices": [
+            73
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 34,
+          "raw_ordinal": "44",
+          "corrected_ordinal": 36,
+          "word_raw": "certainty",
+          "word_normalized": "certainty",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.4,
+            "y": 551.9,
+            "w": 228.2,
+            "h": 45.5
+          },
+          "source_text": "44. certainty.",
+          "line_indices": [
+            77
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 35,
+          "raw_ordinal": "45",
+          "corrected_ordinal": 37,
+          "word_raw": "certificate",
+          "word_normalized": "certificate",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.6,
+            "y": 604.3,
+            "w": 247.7,
+            "h": 43.3
+          },
+          "source_text": "45 certificate",
+          "line_indices": [
+            78
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 36,
+          "raw_ordinal": "46",
+          "corrected_ordinal": 38,
+          "word_raw": "certify",
+          "word_normalized": "certify",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.6,
+            "y": 655.9,
+            "w": 204.9,
+            "h": 51.3
+          },
+          "source_text": "46. certify.",
+          "line_indices": [
+            79
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 37,
+          "raw_ordinal": "47",
+          "corrected_ordinal": 39,
+          "word_raw": "decLine",
+          "word_normalized": "decline",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.5,
+            "y": 709.4,
+            "w": 191.0,
+            "h": 41.3
+          },
+          "source_text": "47. decLine",
+          "line_indices": [
+            82
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 38,
+          "raw_ordinal": "48",
+          "corrected_ordinal": 40,
+          "word_raw": "decrease",
+          "word_normalized": "decrease",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.6,
+            "y": 764.0,
+            "w": 216.3,
+            "h": 40.2
+          },
+          "source_text": "48. decrease",
+          "line_indices": [
+            83
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 39,
+          "raw_ordinal": "49",
+          "corrected_ordinal": 41,
+          "word_raw": "decree",
+          "word_normalized": "decree",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 799.8,
+            "y": 812.7,
+            "w": 182.2,
+            "h": 45.6
+          },
+          "source_text": "49. decree",
+          "line_indices": [
+            84
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 40,
+          "raw_ordinal": "50",
+          "corrected_ordinal": 42,
+          "word_raw": "deem",
+          "word_normalized": "deem",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.4,
+            "y": 872.2,
+            "w": 139.7,
+            "h": 37.9
+          },
+          "source_text": "50. deem",
+          "line_indices": [
+            87
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 41,
+          "raw_ordinal": "51",
+          "corrected_ordinal": 43,
+          "word_raw": "dedicate",
+          "word_normalized": "dedicate",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.4,
+            "y": 926.4,
+            "w": 202.2,
+            "h": 37.9
+          },
+          "source_text": "51 dedicate",
+          "line_indices": [
+            88
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 42,
+          "raw_ordinal": "57",
+          "corrected_ordinal": 44,
+          "word_raw": "deduce",
+          "word_normalized": "deduce",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.4,
+            "y": 977.6,
+            "w": 182.4,
+            "h": 40.9
+          },
+          "source_text": "57. deduce",
+          "line_indices": [
+            90
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 43,
+          "raw_ordinal": "53",
+          "corrected_ordinal": 45,
+          "word_raw": "deduct",
+          "word_normalized": "deduct",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.4,
+            "y": 1031.9,
+            "w": 193.7,
+            "h": 38.0
+          },
+          "source_text": "53. deduct",
+          "line_indices": [
+            91
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 44,
+          "raw_ordinal": "54",
+          "corrected_ordinal": 46,
+          "word_raw": "fashion",
+          "word_normalized": "fashion",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 805.5,
+            "y": 1086.5,
+            "w": 222.0,
+            "h": 42.8
+          },
+          "source_text": "54. fashion.",
+          "line_indices": [
+            93
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 45,
+          "raw_ordinal": "55",
+          "corrected_ordinal": 47,
+          "word_raw": "fashionable",
+          "word_normalized": "fashionable",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 801.7,
+            "y": 1128.1,
+            "w": 431.2,
+            "h": 57.3
+          },
+          "source_text": "55. fashionable intEA",
+          "line_indices": [
+            94
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 46,
+          "raw_ordinal": "56",
+          "corrected_ordinal": 48,
+          "word_raw": "favor",
+          "word_normalized": "favor",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.5,
+            "y": 1191.5,
+            "w": 182.4,
+            "h": 43.8
+          },
+          "source_text": "56. favor.",
+          "line_indices": [
+            95
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 47,
+          "raw_ordinal": "57",
+          "corrected_ordinal": 49,
+          "word_raw": "favourite",
+          "word_normalized": "favourite",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.3,
+            "y": 1239.0,
+            "w": 228.3,
+            "h": 48.6
+          },
+          "source_text": "57. favourite",
+          "line_indices": [
+            96
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 48,
+          "raw_ordinal": "b",
+          "corrected_ordinal": 50,
+          "word_raw": "situation",
+          "word_normalized": "situation",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.5,
+            "y": 1459.2,
+            "w": 222.3,
+            "h": 41.6
+          },
+          "source_text": "b. situation",
+          "line_indices": [
+            101
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 49,
+          "raw_ordinal": "bz",
+          "corrected_ordinal": 51,
+          "word_raw": "skeleton",
+          "word_normalized": "skeleton",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.4,
+            "y": 1510.3,
+            "w": 211.0,
+            "h": 42.2
+          },
+          "source_text": "bz. skeleton",
+          "line_indices": [
+            102
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 50,
+          "raw_ordinal": "63",
+          "corrected_ordinal": 52,
+          "word_raw": "skeptichl",
+          "word_normalized": "skeptichl",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 802.6,
+            "y": 1568.0,
+            "w": 239.1,
+            "h": 43.2
+          },
+          "source_text": "63. skeptichl.",
+          "line_indices": [
+            106
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "page_number": 3,
+          "column": "right",
+          "sequence": 51,
+          "raw_ordinal": "64",
+          "corrected_ordinal": 53,
+          "word_raw": "sRetch",
+          "word_normalized": "sretch",
+          "ocr_confidence": 1.0,
+          "ordinal_confidence": 0.35,
+          "bbox": {
+            "x": 808.3,
+            "y": 1619.8,
+            "w": 173.6,
+            "h": 40.2
+          },
+          "source_text": "64. sRetch",
+          "line_indices": [
+            107
+          ],
+          "is_highlighted": false,
+          "highlight_confidence": 0.0,
+          "highlight_region_indices": [],
+          "definition_status": "not_requested",
+          "needs_review": true,
+          "review_reasons": [
+            "raw_ordinal_far_from_corrected"
+          ]
+        }
+      ],
+      "needs_review": true,
+      "review_reasons": []
+    }
+  ]
+}

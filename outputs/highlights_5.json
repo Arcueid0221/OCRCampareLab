@@ -1,0 +1,241 @@
+{
+  "engine": "yellow_hsv",
+  "input_pdf": "/Users/lwl/Desktop/考研/英语/单词.pdf",
+  "dpi": 240,
+  "created_at": "2026-05-16T18:31:46.795962+00:00",
+  "settings": {
+    "min_area": 120,
+    "h_min": 18,
+    "h_max": 45,
+    "s_min": 45,
+    "v_min": 110,
+    "morph_kernel": 3,
+    "close_iterations": 1,
+    "open_iterations": 1
+  },
+  "summary": {
+    "pages": 5,
+    "total_regions": 16,
+    "total_elapsed_seconds": 0.927
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1517,
+      "height": 1962,
+      "elapsed_seconds": 0.42,
+      "region_count": 0,
+      "regions": []
+    },
+    {
+      "page_number": 2,
+      "width": 1517,
+      "height": 1962,
+      "elapsed_seconds": 0.129,
+      "region_count": 0,
+      "regions": []
+    },
+    {
+      "page_number": 3,
+      "width": 1517,
+      "height": 1962,
+      "elapsed_seconds": 0.127,
+      "region_count": 0,
+      "regions": []
+    },
+    {
+      "page_number": 4,
+      "width": 1517,
+      "height": 1962,
+      "elapsed_seconds": 0.127,
+      "region_count": 15,
+      "regions": [
+        {
+          "bbox": {
+            "x": 47.0,
+            "y": 124.0,
+            "w": 130.0,
+            "h": 44.0
+          },
+          "area": 5154.0,
+          "fill_ratio": 0.8802,
+          "confidence": 0.9341
+        },
+        {
+          "bbox": {
+            "x": 795.0,
+            "y": 170.0,
+            "w": 235.0,
+            "h": 44.0
+          },
+          "area": 9578.5,
+          "fill_ratio": 0.9416,
+          "confidence": 0.9679
+        },
+        {
+          "bbox": {
+            "x": 59.0,
+            "y": 181.0,
+            "w": 115.0,
+            "h": 44.0
+          },
+          "area": 4491.5,
+          "fill_ratio": 0.8984,
+          "confidence": 0.9441
+        },
+        {
+          "bbox": {
+            "x": 38.0,
+            "y": 281.0,
+            "w": 125.0,
+            "h": 44.0
+          },
+          "area": 4951.0,
+          "fill_ratio": 0.9076,
+          "confidence": 0.9492
+        },
+        {
+          "bbox": {
+            "x": 802.0,
+            "y": 331.0,
+            "w": 205.0,
+            "h": 44.0
+          },
+          "area": 8384.0,
+          "fill_ratio": 0.945,
+          "confidence": 0.9698
+        },
+        {
+          "bbox": {
+            "x": 791.0,
+            "y": 758.0,
+            "w": 273.0,
+            "h": 44.0
+          },
+          "area": 11293.0,
+          "fill_ratio": 0.9544,
+          "confidence": 0.9749
+        },
+        {
+          "bbox": {
+            "x": 793.0,
+            "y": 817.0,
+            "w": 198.0,
+            "h": 44.0
+          },
+          "area": 8111.5,
+          "fill_ratio": 0.9377,
+          "confidence": 0.9657
+        },
+        {
+          "bbox": {
+            "x": 41.0,
+            "y": 1086.0,
+            "w": 212.0,
+            "h": 44.0
+          },
+          "area": 8651.5,
+          "fill_ratio": 0.939,
+          "confidence": 0.9665
+        },
+        {
+          "bbox": {
+            "x": 783.0,
+            "y": 1451.0,
+            "w": 490.0,
+            "h": 44.0
+          },
+          "area": 20485.0,
+          "fill_ratio": 0.9671,
+          "confidence": 0.9819
+        },
+        {
+          "bbox": {
+            "x": 38.0,
+            "y": 1455.0,
+            "w": 213.0,
+            "h": 44.0
+          },
+          "area": 8711.0,
+          "fill_ratio": 0.9356,
+          "confidence": 0.9646
+        },
+        {
+          "bbox": {
+            "x": 41.0,
+            "y": 1503.0,
+            "w": 182.0,
+            "h": 44.0
+          },
+          "area": 7154.5,
+          "fill_ratio": 0.9118,
+          "confidence": 0.9515
+        },
+        {
+          "bbox": {
+            "x": 790.0,
+            "y": 1613.0,
+            "w": 438.0,
+            "h": 44.0
+          },
+          "area": 18398.0,
+          "fill_ratio": 0.9558,
+          "confidence": 0.9757
+        },
+        {
+          "bbox": {
+            "x": 41.0,
+            "y": 1666.0,
+            "w": 212.0,
+            "h": 44.0
+          },
+          "area": 8696.0,
+          "fill_ratio": 0.9291,
+          "confidence": 0.961
+        },
+        {
+          "bbox": {
+            "x": 789.0,
+            "y": 1668.0,
+            "w": 494.0,
+            "h": 44.0
+          },
+          "area": 20829.5,
+          "fill_ratio": 0.9458,
+          "confidence": 0.9702
+        },
+        {
+          "bbox": {
+            "x": 48.0,
+            "y": 1723.0,
+            "w": 136.0,
+            "h": 44.0
+          },
+          "area": 5411.5,
+          "fill_ratio": 0.8939,
+          "confidence": 0.9416
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "width": 1517,
+      "height": 1962,
+      "elapsed_seconds": 0.116,
+      "region_count": 1,
+      "regions": [
+        {
+          "bbox": {
+            "x": 3.0,
+            "y": 13.0,
+            "w": 525.0,
+            "h": 44.0
+          },
+          "area": 21982.0,
+          "fill_ratio": 0.9493,
+          "confidence": 0.9721
+        }
+      ]
+    }
+  ]
+}
